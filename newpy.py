@@ -8,6 +8,8 @@ a=pd.Series([4,5,2,np.nan,1,np.nan])
 Q5=a[a.notnull()]
 b=pd.Series([4,5,2,np.nan,1,np.nan])
 Q6=b.fillna(100)
+
+
 c=pd.DataFrame([[4,5,2,9,1,8],
                   [5, 6, np.nan,3,np.nan,2],
                   [6,np.nan,7,np.nan,4,3]])
